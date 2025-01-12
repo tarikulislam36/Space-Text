@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import tw from 'twrnc';
+import { Redirect, router, link } from 'expo-router';
 
 export default function Welcome() {
     const [isModalVisible, setIsModalVisible] = useState(false);
@@ -96,7 +97,7 @@ export default function Welcome() {
                                 </Text>
                                 {/* Accept Button */}
                                 <TouchableOpacity
-                                    onPress={() => setIsModalVisible(false)}
+                                    onPress={() => router.push('OnboardingScreen')}
                                 >
                                     <LinearGradient
                                         colors={['#7B2CBF', '#E63946']}
