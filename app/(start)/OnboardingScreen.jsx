@@ -41,7 +41,7 @@ export default function OnboardingScreen() {
                                         <TouchableOpacity onPress={() => setIsModalVisible(true)}>
                                             <LinearGradient
                                                 colors={['#7B2CBF', '#E63946']}
-                                                style={tw`rounded-full px-6 py-3  relative bottom--5`} // Adjust padding for button
+                                                style={tw`rounded-full px-6 py-3  relative bottom--5`}
                                             >
                                                 <Text style={tw`text-white font-bold text-lg`}>Next</Text>
                                             </LinearGradient>
