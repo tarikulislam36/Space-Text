@@ -11,7 +11,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import tw from 'twrnc';
 import { Redirect, router, link } from 'expo-router';
-import OnboardingScreen from './(start)/OnboardingScreen';
+import SignUp from './(start)/SignUp';
 
 
 const index = () => {
@@ -34,7 +34,7 @@ const index = () => {
         // </View>
 
         <>
-            <OnboardingScreen />
+            <SignUp />
         </>
     )
 }
